@@ -178,6 +178,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         //Add Plus
         Collective\Html\HtmlServiceProvider::class,
+        Laratrust\LaratrustServiceProvider::class,
 
     ],
 
@@ -230,6 +231,7 @@ return [
         //Add class
         'Form' => Collective\Html\formFacade::class,
         'Html' => Collective\Html\formFacade::class,
+        'Laratrus'      => Laratrust\LaratrustFacade::class,
 
 
 
