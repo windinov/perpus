@@ -1,10 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Author;
 use App\Book;
-
-
+use App\Author;
 class BooksSeeder extends Seeder
 {
     /**
@@ -15,9 +13,9 @@ class BooksSeeder extends Seeder
     public function run()
     {
         //
-        $auhor1 = Author::create(['name'=>'Mohammad Fauzil Adhim']);
-        $auhor2 = Author::create(['name'=>'Salim A. Fillah']);
-        $auhor3 = Author::create(['name'=>'Aam Amiruddin']);
+        $author1 = Author::create(['name'=>'Mohammad Fauzil Adhim']);
+        $author2 = Author::create(['name'=>'Salim A. Fillah']);
+        $author3 = Author::create(['name'=>'Aam Amiruddin']);
 
        // Sample buku
         $book1 = Book::create(['title'=>'Kupinang Engkau dengan Hamdalah', 'amount'=>3, 'author_id'=>$author1->id]);
