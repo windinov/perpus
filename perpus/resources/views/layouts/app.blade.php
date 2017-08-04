@@ -12,7 +12,10 @@
 
     <!-- Styles -->
     <link href="/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/jquery.dataTables.css" rel="stylesheet">
+    <link href="/css/dataTables.boostrap.css" rel="stylesheet">
 </head>
 <body>
 
@@ -20,6 +23,8 @@
 <script src="/js/app.js"></script>
 <script src="/js/jquery-3.1.0.min.js"></script>
 <script src="/js/boostrap.min.js"></script>
+<script src="/js/jquery.dataTables.min.js"></script>
+<script src="/js/dataTables.bootstrap.min.js"></script>
 @yield('scripts')
 </body>
 
@@ -88,5 +93,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('js/dataTables.bootstrap.min.js') }}"></script>
 </body>
 </html>
